@@ -1,11 +1,9 @@
 NETWORK DESİGN for MULTİ-OFFİCE CORPORATİONS
 
-
 PTT bankası İstanbul, Ankara ve İzmir olmak üzere 3 farklı şehirde şube açmayı planlamaktadır. Her şehirdeki şubeler 3 kattan oluşmaktadır. Bunlar;
 1.Kat İnsan Kaynakları, Bütçe ve Muhasebe, İnsan Kaynakları ve Toplantı Odası.
 2.Kat Pazarlama ve Satış,Hukuk, Destek Hizmetleri ve Toplantı Odası.
 3.Kat Bilgi Teknolojileri Yönetim, Altyapı Yönetim, İç Kontrol ve Sunucu Odasından oluşmaktadır.
---------------------------------------------------------------------------------------------------------------------------------------------------
 -İlgili birimlerin neredeyse tamamında ip telefon ve her katta 1 adet yazıcı bulunmaktadır.
 -Toplantı odalarında 1 adet Acces Point ve İş bilgisayarları bulunmaktadır ve bunların kablosuz bir şekilde haberleştirilmesi beklenmektedir.
 -Tüm şubelerde yedeklilik beklenmektedir, ağda herhangi bir problem oluşursa ağ trafiği yedek switch üzerinden akmalıdır.
@@ -14,8 +12,7 @@ PTT bankası İstanbul, Ankara ve İzmir olmak üzere 3 farklı şehirde şube a
 -Tüm şubelerde IIS,DNS,FTP ve MAIL server kurulması ve ilgili yapılandırılmaların yapılması beklenmektedir.
 -Sadece İç Kontrol birimlerinin ilgili şubelerdeki switch ve multilayer switchlere uzaktan erişim yapabilmesi (SSH) ve FTP sunucusuna erişebilmesi beklenmektedir.
 -Sadece Altyapı Yönetim birimlerinin diğer tüm cihazlara ping atabilmesi beklenmektedir.
------------------------------------------------------------------------------------------------------------------------------------------------------
-Şirket içi network haberleşmesi ve kolay yönetim için vlan yapılandırılması yapıldı.
+-Şirket içi network haberleşmesi ve kolay yönetim için vlan yapılandırılması yapıldı.
 -Multilayer Switchlere vtp server kuruldu ve kat switchleri client moda alınıp vlan bilgileri alındı.
 -Yapılandırmada bina içerisinde oluşabilecek olası bir multilayer swtich çökmesi durumu göze alınarak 2 adet multilayer swtich kullanılıp yedeklemesi yapıldı.
 -Bütün toplantı odalarına Access Point ve iş laptopları konumlandırıp yapılandırıldı.
